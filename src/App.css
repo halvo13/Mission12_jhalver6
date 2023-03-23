@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+#div-box {
+  border-width: 3px;
+  border-style: solid;
+  border-color: blue;
+  padding: 5px;
+  margin: 10px;
+}
+.div-popup {
+  display: none;
+}
+
+.parent:hover .div-popup {
+  display: block;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
